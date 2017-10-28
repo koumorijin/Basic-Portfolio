@@ -1,0 +1,31 @@
+.box{
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#fixed {
+	position: fixed;
+	width: 200px;
+	background-color: #fff;
+	margin-left: 20%;
+	text-align: center;
+
+}
+#relative {
+	position: relative;
+}
+#absolute {
+	position: absolute;
+	right: 20%;
+	background-color: #eee;
+}
+.text {
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 125%;
+}
+.bottom {
+	position: absolute;
+	top: 30%;
+}
