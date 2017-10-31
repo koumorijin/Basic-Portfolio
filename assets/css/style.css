@@ -1,0 +1,98 @@
+.header {
+	background-color: #ffffff;
+	border: 1px solid;
+	border-color: #cccccc;
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+	height: 75px;
+	margin: auto;
+}
+.myName {
+	position: fixed;
+	margin-left: 20%;
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #4aaaa5;
+	width: 210px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+a {
+	font-size: 24px;
+}
+.aboutMe {
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 14px; 
+	
+}
+.links {
+	margin-right: 20%;	
+	margin-top: 20px;
+	bottom: 0;
+}
+.firstLink {
+	float: right;
+	padding: 5px;
+}
+.middleLink {
+	float: right;
+	border-left-width: 1px;
+	border-left-height: 15px;
+	border-left-color: #777777;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-right-height: 15px;
+	border-right-color: #777777;
+	border-right-style: solid;
+	padding: 5px;
+}
+.lastLink {
+	float:right;
+	padding: 5px;
+}
+.connect {
+	width: 200px;
+	float: right;
+}
+.headShot {
+	margin-left: 20%;
+	float: left;
+}
+.aboutMe {
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 14px; 
+}
+p.aboutMe {
+	border-bottom: thick #777777;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #666666 ;
+    clear: both;
+    border-top: 5px solid;
+    border-color: #4aaaa5 ;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 35px;
+}
+.logo {
+	display: inline;
+	margin-left:5%;
+}
