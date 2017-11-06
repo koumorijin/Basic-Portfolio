@@ -239,7 +239,7 @@ img.rpg {
 	margin: 2%;
 	position: relative;
 }
-.trivia {
+img.trivia {
 	width: 300px;
 	height: 300px;
 	float: left;
@@ -264,13 +264,13 @@ img.rpg {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-.widgets {
+img.widgets {
 	width: 300px;
 	height: 300px;
 	float: left;
 	margin: 2%;
 }
-.rockPaperScissors {
+img.rockPaperScissors {
 	width: 300px;
 	height: 300px;
 	float: left;
