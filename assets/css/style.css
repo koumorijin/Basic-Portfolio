@@ -10,6 +10,9 @@
     color: #777777;
     line-height: 150%;
 }
+.body {
+	margin: 20%;
+}
 .myName {
 	position: absolute;
 	margin-left: 20%;
@@ -30,6 +33,7 @@
 	float: left;
 	margin-right: 2%;
 	margin-left: 20%;
+	margin-bottom: 100px;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -88,12 +92,12 @@ p.formInput{
 }
 .sidebar {
 	float: left;
-	width: 12%;
+	width: 15%;
 	border-width: 1px;
 	border-color: #000000;
 	border-style: solid;
 	background-color: #f8f8ff;
-	height: 175px;
+	height: 15%;
 	margin-top: 30px;
 }
 a {
@@ -108,7 +112,7 @@ a {
 	margin-top: 30px;
 }
 .aboutMeHR {
-	width: 850px;
+	width: 80%;
 	height: 1px;
 	background-color: #cdcdc1;
 }
@@ -126,7 +130,7 @@ p.connectWithMe {
 	color: #4aaaa5;
 }
 hr {
-	width: 110px;
+	width: 75%;
 }
 .col-3 {
 	width: 33.33%;
@@ -173,10 +177,22 @@ hr {
 
 }
 .logo {
-	margin-left:5%;
+	margin: 5%;
 	text-decoration: none;
+	align-self: center;
 }
-
+.github {
+	float: left;
+	right: 50%;
+}
+.linkedin {
+	float: left;
+	right: 50%;
+}
+.stack {
+	float: left;
+	right: 50%;
+}
 div.row::after{
 	content: "";
 	clear: both;
@@ -217,7 +233,7 @@ img.hangman {
 	height: 300px;
 	float: left;
 	margin: 2%;
-	position: relative;
+	
 }
 div.imageText {
 	clear: both;
@@ -237,7 +253,7 @@ img.rpg {
 	height: 300px;
 	float: left;
 	margin: 2%;
-	position: relative;
+	
 }
 img.trivia {
 	width: 300px;
@@ -329,4 +345,64 @@ footer {
     box-sizing: border-box;
     padding: 35px;
 	margin-top: 100px;
+}
+@media only screen and (max-width: 1200px) {
+    .portfolioContainer {
+	width: 55%;
+	float: left;
+	margin-right: 2%;
+	margin-left: 20%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.images {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 2%;
+	}
+    .portfolioContainer {
+	width: 30%;
+	float: left;
+	margin-right: 2%;
+	margin-left: 15%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	}
+}
+@media screen and (max-width: 500px) {
+	.images {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 2%;
+	}
+    .portfolioContainer {
+	width: 20%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 10%;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	}
 }
